@@ -1,0 +1,76 @@
+body {
+    margin:5px;
+    background-color: gray;
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 0.8em;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.explain {
+    width: 100%;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.leerdoel, .italic {
+    font-style: italic;
+}
+
+div.image_container {
+    margin: 0 auto;
+}
+
+.example_image {
+    display: block;
+
+}
+
+.hidden {
+    display: none;
+}
+
+/* hierboven de styling niet aanpassen, dit is niet nodig */
+/* pas vanaf hier de styling aan voor de oefening */
+/* de meeste CSS selectors zijn reeds gemaakt, echter nog niet compleet */
+
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+.item {
+    background-color: beige;
+    margin: 8px;
+    padding: 10px;   
+    width: 210px;
+    display: inline-block;
+
+}
+
+.item:hover { background-color: red; }
+
+.item p {
+    margin: 0;
+    background-color: burlywood;
+    padding: 2px;
+
+}
+
+.item img {
+    margin: 5px 3px;
+    float: left;
+}
+
+.blok1 {
+    margin: auto;
+    width: 50%;
+}
+
+.blok2 {
+    margin: auto;
+    width: 50%;
+}
